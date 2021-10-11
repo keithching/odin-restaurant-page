@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    display: flex;
+    min-height: 100vh;
+}
+
+.left, .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    background-color: pink;
+    color: white;
+    font-size: 200px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header sectino */
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+.header ul a {
+    text-decoration: none;
+    color: grey;
+}
+
+.header ul a:hover {
+    color: black;
+}
+
+.header {
+    margin-bottom: 50px;
+}
+
+/* common settings */
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 0 20px;
+}
+
+/* home section */
+.title {
+    margin: 100px 0 250px 0;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.review {
+    background-color: rgba(230, 230, 230, 0.6);
+    color:  rgb(91, 91, 91);
+    height: 100px;
+    padding: 10px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 250px;
+    margin-bottom: 100px;
+}
+
+
+/* menu section */
+.menu {
+    width: 400px;
+    background-color: rgba(230, 230, 230, 0.6);
+    border-style: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuImg img {
+    max-width: 100%;
+
+}
+
+.menu p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menuTitle {
+    color: hotpink;
+    font-size: 20px;
+}
+
+.menuPrice {
+    color: rgb(91, 91, 91);
+}
+
+/* contact section  */
+.hours p,
+.location p {
+    margin: 0 0 5px 0;
+}
+
+.hours ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.hours, .location {
+    color: rgb(72, 72, 72);
+}
+
+
+/* footer section */
+.footer {
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: grey;
+}
