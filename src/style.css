@@ -16,10 +16,22 @@ body {
 }
 
 .left {
-    background-color: pink;
+    background-color: #FEDFE1;
     color: white;
     font-size: 200px;
+    /* background: url('./logo.jpeg'); */
 }
+
+
+.logoImg {
+    width: 1000px;
+    border-style: none;
+}
+
+.titleImg {
+    width: 500px;
+}
+
 
 .right {
     display: flex;
@@ -140,3 +152,4 @@ body {
     text-decoration: none;
     color: grey;
 }
+

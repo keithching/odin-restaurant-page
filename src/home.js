@@ -1,3 +1,6 @@
+import LogoSrc from './logo.jpeg';
+import TitleSrc from './title.jpeg';
+
 const loadHomePage = () => {
 
     const content = document.querySelector('div#content');
@@ -7,9 +10,12 @@ const loadHomePage = () => {
 
         const left = document.createElement('div');
         left.classList.add('left');
-        const leftText = document.createElement('p');
-        leftText.innerHTML = '&#127800;';
-        left.appendChild(leftText);
+
+        const Logo = new Image();
+        Logo.classList.add('logoImg');
+        Logo.src = LogoSrc;
+        left.appendChild(Logo);
+
 
         const right = document.createElement('div');
         right.classList.add('right');
@@ -52,6 +58,12 @@ const loadHomePage = () => {
         title.classList.add('title');
         const titleText = document.createElement('p');
         titleText.textContent = 'sakura cafe';
+
+        const Title = new Image();
+        Title.src = TitleSrc;
+        Title.classList.add('titleImg');
+        title.appendChild(Title);
+
         title.appendChild(titleText);
 
         // review class
@@ -93,6 +105,12 @@ const loadHomePage = () => {
         title.classList.add('title');
         const titleText = document.createElement('p');
         titleText.textContent = 'sakura cafe';
+
+        const Title = new Image();
+        Title.src = TitleSrc;
+        Title.classList.add('titleImg');
+        title.appendChild(Title);
+
         title.appendChild(titleText);
 
         // review class
